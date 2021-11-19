@@ -87,10 +87,10 @@ p{
     }
     
     .grid-item {
-       border-radius:0px;
+       border-radius:0.1px;
       }
 
       .grid-item-container{
-        border-radius:0px;
+        border-radius:0.1px;
       }
   }

@@ -18,7 +18,7 @@ Solución al reto de front-end, Unsplash Viewer Api de [Nuwe](https://nuwe.io/).
 
 
 ## Demo  :sparkles:
-[estefaniaderosa.github.io/random-image](https://estefaniaderosa.github.io/random-image/)
+[estefaniaderosa.github.io/random-image](https://estefaniaderosa.github.io/randomimage/)
 
 
 ## Inicio :rocket:
