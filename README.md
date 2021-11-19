@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## UNSPLASH VIEWER API  :camera_flash:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Solución al reto de front-end, Unsplash Viewer Api de [Nuwe](https://nuwe.io/). La finalidad del challenge es crear un aplicación donde se vea una galería de imágenes utilizando la API de [Unsplash](https://unsplash.com/).
 
-## Available Scripts
+**Objetivos cumplidos:**
 
-In the project directory, you can run:
+ :white_small_square: Puede verse un layout de cards conectado a la API ✅
+ 
+  :white_small_square: Mínimo 10-12 cards en 3 columnas, (se muestran 20 cards) ✅
+* Si alguna de las palabras generadas aleatoriamente no tuviera resultados o tuviese menos de 12 imágenes en Unsplash, se obtiene de manera automatica una nueva keyword que cumpla con el requisito.
+    
+ :white_small_square: Al clicar en el botón se cargan nuevas fotos de forma aleatoria (se genera una palabra aleatoria utilizando el paquete npm random-word) ✅
+ 
+  :white_small_square: Para asegurar que el título y subtitulo (palabra buscada y autor) se vean  bien, cada card tiene una sombra con mucha transparencia en negro (al hacer hover sobre la card la sombra desparece) . ✅
+  
+ :white_small_square: Es 100% funcional en mobile y se muestra una columna de imágenes ✅
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Demo  :sparkles:
+[estefaniaderosa.github.io/random-image](https://estefaniaderosa.github.io/random-image/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Inicio :rocket:
+Para comenzar a trabajar con el repositorio instalar los paquetes e iniciar la app:
 
-### `npm run build`
+1. Instalar:
+> `npm i`  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Iniciar:
+> `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Tecnologías utilizadas :woman_technologist:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ - [React](https://es.reactjs.org/)
+ - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ - [CCS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+ - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+ - [Axios](https://axios-http.com/)
+ - [Random word ](https://www.npmjs.com/package/random-word)
+ - [Unsplash API](https://unsplash.com/)
+ 
+#Utilicé el hook useState de React para el manejo del estado local. CSS3 para la UI, Grid para el layout de columnas y Axios para consumir la API de Unsplash. Elegí el paquete random-word de npm para generar una palabra aleatoria cada vez que se haga click en el botón 'Search new images' y dispare la búsqueda en Unsplash.
 
-### `npm run eject`
+## Estructura de carpetas :card_index_dividers:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ - :file_folder: public
+	 - index.html
+ -  :file_folder: src 
+	 - App.js
+	 - index.js
+	 - index.css
+	 -  :file_folder: components 
+		 - Gallery.js
+		 - Gallery.css
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Calidad de Código :white_check_mark:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
