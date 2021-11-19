@@ -57,4 +57,4 @@ Para comenzar a trabajar con el repositorio instalar los paquetes e iniciar la a
 
 ## Calidad de Código :white_check_mark:
 
- 
+ [![CodeFactor](https://www.codefactor.io/repository/github/estefaniaderosa/randomimage/badge)](https://www.codefactor.io/repository/github/estefaniaderosa/randomimage)
